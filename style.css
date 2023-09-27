@@ -5,16 +5,41 @@
     /* font-family: "Anurati"; */
 }
 
-#root{
+#root {
     display: grid;
     grid-template-columns: 8fr 4fr;
-}
-
-#form{
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 }
-table{
+
+
+table {
     align-self: start;
-} 
+    border-collapse: collapse;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    
+}
+
+td,
+th
+ {
+    padding: 10px;
+    align-items: center;
+    /* vertical-align: ; */
+    text-align: center;
+}
+
+
+input ,select, button {
+    margin-bottom: 10px;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
