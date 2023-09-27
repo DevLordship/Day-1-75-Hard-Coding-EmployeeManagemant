@@ -40,7 +40,32 @@ function addEmployee(employee) {
     <td>${employee.Email}</td>
     <td>${employee.ID}</td>
     <td>${employee.Company}</td>
-    <td>${employee.Designation}</td>`;
+    <td>${employee.Designation}</td>
+    <td><button class="delete-button" onclick="deleteEmployee(this)" data-empid="${employee.ID}">Delete</button></td>
+    
+    
+    `;
     tbody.appendChild(tr);
     employees.push(employee);
+    // resetting the form after adding the employee
+    form.reset();
+}
+
+// deleteEmployee deletes an employee
+
+function deleteEmployee(buttonRef) {
+    let empId = buttonRef.getAttribute("data-empid");
+    
+    // deleting the corrosponding abject using the employee id from the employees database
+    for (let i = 0; i < employees.length; i++) {
+        if (employees[i].ID === empId) {
+            employees.splice(i, 1);
+            break;
+        }
+    }
+    // deleting the corrosponding abject using the employee id from the dom
+
+    let parentTd = buttonRef.parentNode;
+    let parentTr = parentTd.parentNode;
+    parentTr.remove();
 }
