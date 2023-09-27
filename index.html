@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Employee Management</title>
-</head>
-<body>
-    project started
-    <script src="./script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Employee Management</title>
+    </head>
+    <body>
+        <div id="root">
+            <div id="form">
+                <input type="text" name="name" placeholder="Employee-Name" id="employee-name" />
+                <input type="text" name="Email" placeholder="Employee Email" id="employee-email" />
+                <input type="text" name="employee-ID" placeholder="Employee ID" id="employee-ID" />
+                <input type="text" name="employee-company" placeholder="Employee Company" id="employee-company" />
+                <input type="text" name="employee-designation" placeholder="Employee Designation" id="employee-designation" />
+                <select name="employee-designation" id="">
+                    <option value="SDE-1">SDE-1</option>
+                    <option value="QA">QA</option>
+                    <option value="SDE-2">SDE-2</option>
+                    <option value="TL">TL</option>
+                    <option value="Manager">Manager</option>
+                </select>
+                <button id="add-employee">Add Employee</button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
 </html>
