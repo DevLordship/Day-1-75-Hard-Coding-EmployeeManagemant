@@ -8,12 +8,49 @@
     </head>
     <body>
         <div id="root">
-            <div id="form">
-                <input type="text" name="name" placeholder="Employee-Name" id="employee-name" />
-                <input type="text" name="Email" placeholder="Employee Email" id="employee-email" />
-                <input type="text" name="employee-ID" placeholder="Employee ID" id="employee-ID" />
-                <input type="text" name="employee-company" placeholder="Employee Company" id="employee-company" />
-                <input type="text" name="employee-designation" placeholder="Employee Designation" id="employee-designation" />
+           
+            <table>
+                <thead>
+                    <tr>
+                        <th>Employee Name</th>
+                        <th>Employee Email</th>
+                        <th>Employee ID</th>
+                        <th>Employee Company</th>
+                        <th>Employee Designation</th>
+                    </tr>
+                </thead>
+            </table>
+            <form id="form">
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Employee Name"
+                    id="employee-name"
+                />
+                <input
+                    type="text"
+                    name="Email"
+                    placeholder="Employee Email"
+                    id="employee-email"
+                />
+                <input
+                    type="text"
+                    name="employee-ID"
+                    placeholder="Employee ID"
+                    id="employee-ID"
+                />
+                <input
+                    type="text"
+                    name="employee-company"
+                    placeholder="Employee Company"
+                    id="employee-company"
+                />
+                <input
+                    type="text"
+                    name="employee-designation"
+                    placeholder="Employee Designation"
+                    id="employee-designation"
+                />
                 <select name="employee-designation" id="">
                     <option value="SDE-1">SDE-1</option>
                     <option value="QA">QA</option>
@@ -22,7 +59,7 @@
                     <option value="Manager">Manager</option>
                 </select>
                 <button id="add-employee">Add Employee</button>
-            </div>
+            </form>
         </div>
         <script src="./script.js"></script>
     </body>
