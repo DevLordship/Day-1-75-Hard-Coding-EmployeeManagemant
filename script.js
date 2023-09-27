@@ -44,6 +44,7 @@ function addEmployee(employee) {
     <td><button class="delete-button" onclick="deleteEmployee(this)" data-empid="${employee.ID}">Delete</button></td>
     
     
+    
     `;
     tbody.appendChild(tr);
     employees.push(employee);
@@ -55,7 +56,7 @@ function addEmployee(employee) {
 
 function deleteEmployee(buttonRef) {
     let empId = buttonRef.getAttribute("data-empid");
-    
+
     // deleting the corrosponding abject using the employee id from the employees database
     for (let i = 0; i < employees.length; i++) {
         if (employees[i].ID === empId) {
