@@ -5,7 +5,7 @@
 Welcome to the Basic Employee Management System, a simple yet effective project created using JavaScript and DOM manipulation. This system allows you to manage employee data efficiently, providing features for adding, editing, and deleting employee information.
 
 ![Employee Management System](./project-details/employee%20management%20gif.gif)
-![Employee Management System](./project-details/01%20photo_6098415899313813386_w.jpg)
+<!-- ![Employee Management System](./project-details/01%20photo_6098415899313813386_w.jpg)
 ![Employee Management System](./project-details/02%20photo_6098415899313813387_w.jpg)
 ![Employee Management System](./project-details/03%20photo_6098415899313813391_w.jpg)
 ![Employee Management System](./project-details/04%20photo_6098415899313813393_w.jpg)
@@ -14,7 +14,7 @@ Welcome to the Basic Employee Management System, a simple yet effective project 
 ![Employee Management System](./project-details/07%20photo_6100667699127498367_w.jpg)
 ![Employee Management System](./project-details/08%20photo_6100667699127498407_w.jpg)
 ![Employee Management System](./project-details/09%20photo_6100667699127500259_w.jpg)
-![Employee Management System](./project-details/10%20photo_6100667699127500260_w.jpg)
+![Employee Management System](./project-details/10%20photo_6100667699127500260_w.jpg) -->
 
 
 ## Features
