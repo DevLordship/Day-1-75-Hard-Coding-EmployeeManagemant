@@ -1,10 +1,14 @@
 # Day-1-75-Hard-Coding-EmployeeManagemant
 
+
+https://github.com/DevLordship/Day-1-75-Hard-Coding-EmployeeManagemant/assets/129058921/2b8b1a15-b586-4b01-95be-55098421c054
+
+
 # Basic Employee Management System
 
 Welcome to the Basic Employee Management System, a simple yet effective project created using JavaScript and DOM manipulation. This system allows you to manage employee data efficiently, providing features for adding, editing, and deleting employee information.
 
-![Employee Management System](./project-details/employee%20management%20gif.gif)
+![Employee Management System](./project-details/employee%20management%20gihf.gif)
 <!-- ![Employee Management System](./project-details/01%20photo_6098415899313813386_w.jpg)
 ![Employee Management System](./project-details/02%20photo_6098415899313813387_w.jpg)
 ![Employee Management System](./project-details/03%20photo_6098415899313813391_w.jpg)
