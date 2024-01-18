@@ -1,4 +1,4 @@
-# Day-1-75-Hard-Coding-EmployeeManagemant
+# Day-1-75-Hard-Coding-EmployeeManagemant-Software
 
 
 https://github.com/DevLordship/Day-1-75-Hard-Coding-EmployeeManagemant/assets/129058921/2b8b1a15-b586-4b01-95be-55098421c054
